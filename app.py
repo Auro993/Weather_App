@@ -305,4 +305,6 @@ if __name__ == '__main__':
     print("   - http://localhost:5000/api/test")
     print("   - http://localhost:5000/api/weather/current?city=London")
     print("\nPress CTRL+C to stop the server")
+
+  
     app.run(debug=True, port=5000)
