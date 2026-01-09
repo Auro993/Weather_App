@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize Flask app
-app = Flask(__name__)
+app = Flask()
 CORS(app)  # Enable Cross-Origin Resource Sharing for frontend
 
 # Get API key from environment variable
@@ -308,3 +308,4 @@ if __name__ == '__main__':
 
   
     app.run(debug=True, port=5000)
+
