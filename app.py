@@ -10,7 +10,6 @@ load_dotenv()
 # Initialize Flask app
 app = Flask()
 CORS(app)  # Enable Cross-Origin Resource Sharing for frontend
-
 # Get API key from environment variable
 OPENWEATHER_API_KEY = os.getenv('OPENWEATHER_API_KEY', 'your_api_key_here')
 
@@ -308,4 +307,5 @@ if __name__ == '__main__':
 
   
     app.run(debug=True, port=5000)
+
 
